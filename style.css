@@ -1,0 +1,157 @@
+
+* {
+    font-family: 'Roboto';
+}
+
+.footer,
+.first-section {
+    background-color: #1F2937;
+}
+
+.footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+
+.container {
+    max-width: 350px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 48px;
+}
+
+.info-text {
+    font-size: 36px;
+    color: #1F2937;
+    padding: 16px;
+}
+
+.border {
+    border-radius: 25px;
+    border-color:#3882F8;
+    width: 167px;
+    height: 167px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.second-section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.quote {
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    justify-content: end;
+}
+
+.container-3 {
+    max-width: 800px;
+}
+
+.fourth-section {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-4 {
+    border-radius: 25px;
+    background-color: #3882F8;
+    width: 800px;
+    padding: 50px;
+}
+
+.card-header {
+    color: white;
+    font-weight: 900;
+}
+
+.card-text {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.subtext,
+.logo {
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F8;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: white;
+}
